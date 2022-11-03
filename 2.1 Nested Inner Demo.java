@@ -4,8 +4,7 @@ package nestedinner;
 class Outer
 {
     static int x=10;
-    Inner i=new Inner();
-    
+    Inner i=new Inner();###now we can access value of y     
     class Inner
     {
         int y=20;
